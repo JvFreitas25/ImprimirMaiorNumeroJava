@@ -11,7 +11,7 @@ public class ImprimirMaiorNumero {
 		Scanner entrada = new Scanner(System.in);
 		double valor;
 		double maiorValor = 0;
-		for(int i = 0; i <= 10; i++){
+		for(int i = 0; i < 10; i++){
 			System.out.println("Informe o valor: ");
 			valor = entrada.nextDouble();
 			if(valor > maiorValor) {
